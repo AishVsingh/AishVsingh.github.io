@@ -17,7 +17,7 @@ body {
     margin-bottom: 0%;
     background-color: black;
     display: block;
-    width: 100%;
+    width: auto;
 }
 
 #top-nav {
