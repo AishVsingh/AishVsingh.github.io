@@ -1,0 +1,408 @@
+* {
+    font-family: 'Baloo Tamma 2', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#page-heading {
+    color: white;
+    font-size: 55px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    background-color: black;
+    display: block;
+    width: 100%;
+}
+
+#top-nav {
+    height: auto;
+    background-color: black;
+    text-align: right;
+    width: 100%;
+}
+
+.icon {
+    display: none;
+    float: left;
+}
+
+ul.nav-li {
+    width: auto;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+ul.nav-li li {
+    display: inline-block;
+    line-height: 100px;
+}
+
+ul.nav-li li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: solid white;
+}
+
+ul.nav-li li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 100px white;
+    border-bottom: none;
+}
+
+#banner {
+    display: block;
+    background-image: url("image-about-me/i3.gif"), url("image-about-me/i1.jpg"), url("image-about-me/i3.gif");
+    background-size: 25%, 60%, 25%;
+    background-position: 15% 72%, 80% 60%, 117% 72%;
+    background-repeat: no-repeat;
+}
+
+#banner-img {
+    width: 20%;
+    margin-right: 75%;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.sub-heading {
+    font-size: 45px;
+    color: white;
+    margin-left: 18%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.sub-text {
+    font-size: 20px;
+    color: white;
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+#profile {
+    padding-top: 50px;
+}
+
+.edu-box {
+    display: block;
+    border: 1px white solid;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+    padding: 3%;
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: all 2s;
+}
+
+.content1 {
+    display: inline-block;
+    text-align: center;
+}
+
+#queen-logo1 {
+    display: inline-block;
+    width: 40%;
+    padding-right: 10%;
+    margin-bottom: 4%;
+}
+
+#f-logo {
+    display: inline-block;
+    width: 27%;
+    padding-right: 22%;
+}
+
+#biz-logo {
+    display: inline-block;
+    width: 36%;
+    padding-right: 8%;
+    margin-bottom: 8%;
+}
+
+#lot-logo {
+    display: inline-block;
+    width: 20%;
+    padding-right: 19%;
+    padding-left: 5%;
+    margin-bottom: 3%;
+}
+
+.skills {
+    list-style-type: none;
+    margin-left: 18%;
+    font-size: 20px;
+    color: white;
+}
+
+.skills li {
+    padding-bottom: 50px;
+}
+
+.bar {
+    display: block;
+    border: white 2px solid;
+    border-radius: 15px;
+    height: 4px;
+    width: 80%;
+    overflow: hidden;
+    margin: 5px 5px
+}
+
+.bar span {
+    display: block;
+    height: 4px;
+    border: white 2px solid;
+    border-radius: 15px;
+    width: 50%;
+    float: left;
+    background-color: white;
+}
+
+.bar .java {
+    width: 80%;
+}
+
+.bar .python {
+    width: 80%;
+}
+
+.bar .sql {
+    width: 70%;
+}
+
+.bar .htcs {
+    width: 50%;
+}
+
+.bar .js {
+    width: 30%;
+}
+
+.item {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: solid rgb(255, 255, 255) 3px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px;
+}
+
+.item:hover {
+    background-color: white;
+    color: black;
+    border: solid rgb(255, 255, 255) 3px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.other-skills {
+    display: inline-block;
+    margin: 6%;
+    margin-left: 15%;
+}
+
+.item .info {
+    visibility: hidden;
+    width: 400px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    bottom: 130%;
+    left: -20%;
+    margin-left: -60px;
+}
+
+.item .info::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+.item:hover .info {
+    visibility: visible;
+}
+
+.item .info#aws {
+    left: -30%;
+}
+
+.item .info#dock {
+    left: -120%;
+}
+
+.item .info#web-c {
+    left: -55%;
+}
+
+.item .info#git {
+    left: -220%;
+}
+
+.item .info#web-a {
+    left: -50%;
+}
+
+.item .info#web-d {
+    left: -40%;
+}
+
+.item .info#cv {
+    left: -60%;
+}
+
+@media only screen and (max-width:890px) {
+    a:not(:first-child) {
+        display: none;
+    }
+    a.icon {
+        float: right;
+        display: block;
+    }
+    #lot-logo {
+        display: inline-block;
+        width: 17%;
+        padding-right: 16%;
+        padding-left: 5%;
+        margin-bottom: 3%;
+    }
+    #biz-logo {
+        display: inline-block;
+        width: 33%;
+        padding-right: 6%;
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width:888px) {
+    #page-heading {
+        color: white;
+        font-size: 55px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: black;
+        display: block;
+        width: 100%;
+    }
+    #page-heading {
+        color: white;
+        text-align: center;
+        font-size: 55px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    ul.nav-li li {
+        display: block;
+    }
+    ul.nav-li {
+        text-align: center;
+    }
+    #banner-img {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 50%;
+        border-radius: 50%;
+        background-size: cover;
+    }
+    #banner {
+        margin-top: 60px;
+        display: block;
+        background-image: url("image-about-me/i3.gif"), url("image-about-me/i3.gif"), url("image-about-me/i1.jpg");
+        background-size: 50%, 50%, 80%;
+        background-position-x: -50%, 150%, 50%;
+        background-repeat: no-repeat;
+    }
+    .sub-heading {
+        display: block;
+        font-size: 35px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .sub-text {
+        font-size: 15px;
+        display: block;
+        padding-top: 0px;
+        color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .edu-box {
+        display: block;
+        border: 1px white solid;
+        font-size: 20px;
+        border-radius: 15px;
+        color: white;
+        box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+        padding: 3%;
+        width: 60%;
+        height: 40%;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #queen-logo1 {
+        display: block;
+        width: 40%;
+        padding: 5%;
+        margin: auto;
+    }
+    #f-logo {
+        display: block;
+        width: 27%;
+        padding: 5%;
+        margin: auto;
+    }
+    #biz-logo {
+        display: block;
+        width: 36%;
+        padding: 5%;
+        margin: auto;
+    }
+    #lot-logo {
+        display: block;
+        width: 20%;
+        padding: 5%;
+        margin: auto;
+    }
+    .content1 {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
