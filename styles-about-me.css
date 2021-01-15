@@ -314,7 +314,7 @@ ul.nav-li li a:hover {
         padding-bottom: 0px;
         background-color: black;
         display: block;
-        width: 100%;
+        width: auto;
     }
     #page-heading {
         color: white;
